@@ -1,4 +1,4 @@
-import { deleteTodoAction } from "./delete-todo.action";
+import { deleteTodoAction } from "./delete-todo.actions";
 import { makeTestTodoMocks } from "@/core/__tests__/utils/make-test-todo-mocks";
 
 vi.mock("next/cache", () => {
